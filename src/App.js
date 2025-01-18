@@ -4,6 +4,8 @@ import "./App.scss";
 import MyNav from "./components/nav";
 import MyBanner from "./components/banner";
 import AboutMe from "./components/about_me";
+import WhatIDo from "./components/what-i-do";
+import Resume from "./components/resume";
 
 function App() {
   let refScroll = useRef(0);
@@ -20,6 +22,8 @@ function App() {
       <MyNav offset={offsetY} />
       <MyBanner />
       <AboutMe  />
+      <WhatIDo />
+      <Resume />
     </div>
   );
 }
