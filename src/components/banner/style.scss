@@ -1,15 +1,15 @@
 .banner {
   height: 100vh;
   width: 100vw;
-  max-width: 100%;
-  max-height: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
   z-index: 0;
   background-image: url("https://i.pinimg.com/1200x/b7/f5/18/b7f518b2146c2e7854b784b88c03f308.jpg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
+  padding: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,16 +64,29 @@
         border-right-color: transparent;
       }
     }
-    .navigate {
-      margin-bottom: 40px;
+  }
+  .scroll-down {
+    width: 100vw;
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    background-color: transparent;
+    display: flex;
+
+    a {
       animation: navigate-translate 1s infinite ease-out;
+      margin: auto;
+      cursor: pointer;
     }
     @keyframes navigate-translate {
       from {
         transform: translateY(-20px);
+        opacity: 0;
       }
       to {
         transform: translateY(25px);
+        opacity: 1;
       }
     }
   }
