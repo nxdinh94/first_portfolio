@@ -1,0 +1,35 @@
+.container {
+    padding-bottom: 6.5rem;
+  .title {
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+  }
+  .row {
+    .skill-hero {
+      p {
+        font-weight: 500;
+        span {
+          float: right;
+        }
+      }
+    }
+    .download-button {
+      background-color: white;
+      color: black;
+      border: 2px solid #000000; /* Green */
+      width: fit-content;
+      margin: auto;
+      font-weight: 500;
+      padding: .8rem 2.6rem;
+      cursor: pointer;
+      &:hover{
+        background-color: #000000;
+        color: white;
+        transition: all 0.5s ease-in-out;
+      }
+    }
+  }
+}

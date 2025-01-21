@@ -6,6 +6,7 @@ import MyBanner from "./components/banner";
 import AboutMe from "./components/about_me";
 import WhatIDo from "./components/what-i-do";
 import Resume from "./components/resume";
+import MySkill from "./components/my-skill";
 
 function App() {
   let refScroll = useRef(0);
@@ -24,6 +25,7 @@ function App() {
       <AboutMe  />
       <WhatIDo />
       <Resume />
+      <MySkill />
     </div>
   );
 }

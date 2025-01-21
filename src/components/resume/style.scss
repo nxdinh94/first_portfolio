@@ -1,0 +1,18 @@
+.my-edu {
+  border-left: 2px solid orange;
+  .my-edu-feature {
+    .description {
+      margin-bottom: 16px;
+      color: #6c757d;
+      line-height: 1.9;
+      margin-bottom: 16px;
+    }
+  }
+  hr {
+    border: 0;
+    border-top: 1px solid;
+    color: inherit;
+    margin: 1rem 0;
+    opacity: 0.25;
+  }
+}
